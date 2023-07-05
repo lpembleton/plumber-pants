@@ -63,7 +63,7 @@ workflow {
     Groovy functions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-
+// Be kind to your users - give them a help message
 def helpMessage() {
   log.info """
         Usage:
